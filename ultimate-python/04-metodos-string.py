@@ -1,0 +1,13 @@
+animal = "  nombre apellido  "
+print(animal.upper())
+print(animal.lower())
+print(animal.capitalize())
+print(animal.title())
+print(animal.strip())
+print(animal.strip().title())
+print(animal.lstrip())
+print(animal.rstrip())
+print(animal.find("el"))
+print(animal.replace("elli", "huevos"))
+print("bre" in animal)
+print("bre" not in animal)
